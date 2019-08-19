@@ -35,7 +35,7 @@ By default, NGINX puts a test HTML file in the web folder. This default web page
 
 Browse to the default web page from another computer on the network and you should see a page with a NGINX welcome message.
 
-### Changing permissions
+## Changing permissions
 
 Change permissions on the web directory `/var/www/html` by typing the following commands in to the Terminal:
 
@@ -160,6 +160,7 @@ git clone https://github.com/Dashticz/dashticz --branch beta
 ### Loading Dashticz...
 
 Browse to `http://192.168.1.10/dashticz` (whatever the Pi's IP address is) and you should see a Dashticz loading page.
+You can start configuring your own Dashticz dashboard.
 
 ### Update Dashticz
 
