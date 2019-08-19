@@ -160,7 +160,7 @@ git clone https://github.com/Dashticz/dashticz --branch beta
 ### Loading Dashticz...
 
 Browse to `http://192.168.1.10/dashticz` (whatever the Pi's IP address is) and you should see a Dashticz loading page.
-You can start configuring your own Dashticz dashboard.
+Now you can start configuring your own Dashticz dashboard.
 
 ### Update Dashticz
 
@@ -171,6 +171,6 @@ cd /var/www/html/dashticz
 git pull
 ```
 
-### Configure Dashticz
+### Configuring Dashticz
 
-Now it's time to start reading [Dashticz’s documentation](https://dashticz.readthedocs.io) and learn how to configure Dashticz.
+The best is to start reading [Dashticz’s documentation](https://dashticz.readthedocs.io) and learn how to configure Dashticz.
