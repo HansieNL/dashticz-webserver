@@ -159,7 +159,7 @@ git clone https://github.com/Dashticz/dashticz
 ### Create and edit CONFIG.js
 
 ```bash
-cd /var/www/html/dashticz
+cd /var/www/html/dashticz/custom
 cp CONFIG_DEFAULT.js CONFIG.js
 nano CONFIG.js
 ```
