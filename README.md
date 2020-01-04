@@ -29,13 +29,13 @@ and start the server with:
 sudo /etc/init.d/nginx start
 ```
 
-## Test the web server
+### Test the web server
 
 By default, NGINX puts a test HTML file in the web folder. This default web page is served when you browse to `http://192.168.1.10` (whatever the Pi's IP address is) from another computer on the network.
 
 Browse to the default web page from another computer on the network and you should see a page with a NGINX welcome message.
 
-## Changing permissions
+### Changing permissions
 
 Change permissions on the web directory `/var/www/html` by typing the following commands in to the Terminal:
 
@@ -180,17 +180,17 @@ chmod a+w /var/www/html/dashticz/custom/CONFIG.js
 ```
 
 
-### Starting Dashticz
+### Start Dashticz
 
 Browse to http://192.168.1.10/dashticz (whatever the Pi's IP address is) and you should see the Dashticz dashboard. 
 
 
-### Customizing Dashticz
+### Customize Dashticz
 
 Now it's time to start reading [Dashticz’s documentation](https://dashticz.readthedocs.io) and learn how to customize your Dashticz dashboard.
 
 
-### Updating Dashticz
+### Update Dashticz
 
 In the future you can simply update Dashticz by typing the following commands in to the Terminal:
 
