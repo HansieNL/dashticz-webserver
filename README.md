@@ -132,7 +132,7 @@ Save and refresh your browser. You should see a page with the PHP version, logo 
 
 ## Install Dashticz
 
-Installation instructions step by step...
+Alternative dashboard for Domoticz. Installation instructions step by step...
 
 
 ### Install Git
