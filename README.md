@@ -148,7 +148,7 @@ Now you can clone Dashticz’s repositories.
 
 ### Clone Dashticz
 
-Clone the Dashticz repository to a folder of your choice:
+Clone the Dashticz repository:
 
 ```bash
 cd /var/www/html
