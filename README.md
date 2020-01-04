@@ -130,7 +130,12 @@ Add some dynamic PHP content:
 Save and refresh your browser. You should see a page with the PHP version, logo and current configuration settings.
 
 
-## Install Git
+## Install Dashticz
+
+Installation instructions step by step...
+
+
+### Install Git
 
 Install the `git` package by typing the following command in to the Terminal:
 
@@ -141,32 +146,51 @@ sudo apt-get install git
 Now you can clone Dashticz’s repositories.
 
 
-## Clone Dashticz
+### Clone Dashticz
 
-Install Dashticz master by typing the following command in to the Terminal:
-
-```bash
-cd /var/www/html
-git clone https://github.com/Dashticz/dashticz --branch master
-```
-
-Or if you want to install the beta branch, type the following command in to the Terminal:
+Clone the Dashticz repository to a folder of your choice:
 
 ```bash
 cd /var/www/html
-git clone https://github.com/Dashticz/dashticz --branch beta
+git clone https://github.com/Dashticz/dashticz
 ```
 
-### Loading Dashticz...
 
-Browse to `http://192.168.1.10/dashticz` (whatever the Pi's IP address is) and you should see a Dashticz loading page.
-Now you can start configuring your own Dashticz dashboard.
+### Create and edit CONFIG.js
 
-### Configuring Dashticz
+```bash
+cd /var/www/html/dashticz
+cp CONFIG_DEFAULT.js CONFIG.js
+nano CONFIG.js
+```
 
-The best is to start reading [Dashticz’s documentation](https://dashticz.readthedocs.io) and learn how to configure Dashticz.
+Change the following line to your own Domoticz IP Address and Port:
 
-### Update Dashticz
+```
+config['domoticz_ip'] = 'http://192.168.1.10:8080';
+```
+
+
+### Give write permission to CONFIG.js
+
+If you want to be able to save the settings via Dashticz to `CONFIG.js` then you have to give write permission to the file:
+
+```bash
+chmod a+w /var/www/html/dashticz/custom/CONFIG.js
+```
+
+
+### Starting Dashticz
+
+Browse to http://192.168.1.10/dashticz (whatever the Pi's IP address is) and you should see the Dashticz dashboard. 
+
+
+### Customizing Dashticz
+
+Now it's time to start reading [Dashticz’s documentation](https://dashticz.readthedocs.io) and learn how to customize your Dashticz dashboard.
+
+
+### Updating Dashticz
 
 In the future you can simply update Dashticz by typing the following commands in to the Terminal:
 
